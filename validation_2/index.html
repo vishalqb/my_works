@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <script type=text/javascript src="script.js"> </script>
+    <meta charset="UTF-8">
+    <title>Log-in</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="login-card">
+    <h1>Log-in</h1><br>
+    <form action="index.html" method="post">
+   	  <input id = "uname" type="text" name="user" placeholder="Username" onblur="isUser()" ><span id="u"></span>
+      <input id="pass" type="password" name="pass" placeholder="Password" onblur="isPass()"><span id="p"></span>
+      <input id="email" type="text" name="mail" placeholder="Email" onblur="isMail()"><span id="e"></span>
+      <input type="submit" name="login" class="login login-submit" value="login" onclick="verify()">
+        <span id="vl"></span>
+    </form>
+  </div>
+  </body>
+</html>
