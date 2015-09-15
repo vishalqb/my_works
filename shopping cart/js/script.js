@@ -105,7 +105,7 @@ function start() {
     new_div.attr("id", "disp");
     
     $("#add").bind("click", function () {
-        var product_name = name_value.innerHTML, n = 0;
+        var product_name = name_value.text(), n = 0;
         while (n < 10) {
             if (prods[n].name === product_name) {
                 prods[n].addCart(n);
@@ -116,7 +116,7 @@ function start() {
     });
     
     $("#cancel").bind("click", function () {
-        var product_name = name_value.innerHTML, n = 0;
+        var product_name = name_value.text(), n = 0;
         while (n < 10) {
             if (prods[n].name === product_name) {
                 prods[n].removeCart(n);
