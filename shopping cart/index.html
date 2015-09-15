@@ -19,13 +19,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/script.js">
     </script>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    
+    <style type="text/css">
+    @media screen and (max-width : 900px) {
+        div.limit {
+            width: auto;
+        }
+        div.imgs {
+            height: auto;
+            width: auto;
+        }
+    </style>
 
 </head>
 
@@ -36,9 +40,9 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <img style="border-radius:40px;" src="css/assets/logo.png" alt="logo" width=75 height=75/>
+                <a href="#"><img style="border-radius:40px;" src="./assets/logo.png" alt="logo" width=75 height=75/>
+                </a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
@@ -46,20 +50,38 @@
                     </li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
     </nav>
 
     <!-- Page Content -->
-    <div class="container pos"  id="contain">
+    <div class="container">
 
-        <div class="row" id="items">
+        <div class="row">
 
             <div class="col-lg-12">
-                <h2 style="color: red;" class="page-header">Deals of the day!!!</h1>
+                <strong><h1 style="color: red;" class="page-header">Deals of the day!!!</h1></strong>
             </div>
 
+        </div>
+        <div class="row">
+            <div class="col-lg-10 col-md-7 col-sm-9 col-xs-12"> 
+                <div class="row" id="items_1">
+            
+                </div>
+                <div class="row" id="items_2">
+            
+                </div>
+                <div class="row" id="items_3">
+            
+                </div>
+            </div>
+            <div id="disp" class="col-lg-2 col-md-5 col-sm-3">
+                
+            </div>
+        </div>
+        <div class="row">
+            <input type="button" class="btn btn-primary" id="add" value="Add">
+        <input type="button" class="btn btn-primary" id="cancel" value="Cancel">
         </div>
 
         <footer>
@@ -69,14 +91,11 @@
                 </div>
             </div>
         </footer>
-    </div>
-   <div class="pos" id="disp">
-       <br><br><br>
-    </div>
-    <br><br><br><br><br><br><br><br><br>
-    <input type="button" class="op" id="add" value="Add">
-        <input type="button" class="op" id="cancel" value="Cancel">
-
+    </div>  
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+    
 </body>
 
 </html>

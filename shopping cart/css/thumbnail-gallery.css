@@ -5,7 +5,7 @@
  */
 
 body {
-    background-color: #a1e0ab;
+    background-color: #8adaed;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
 
@@ -17,22 +17,17 @@ footer {
     margin: 50px 0;
 }
 
-.row {
-    width: 70%;
-}
-
-div .loc {
-    float:right;
-}
-
-.pos {
-    float: left;
-}
-
-.op {
-    border-radius: 10px;
+#disp {
     font-size: 20px;
-    float: inherit;
-    background-color: white;
+    color: firebrick;
 }
-    
+
+@media screen and (max-width : 900px) {
+    div.limit {
+        width: auto;
+    }
+    div.imgs {
+        height: 100%;
+        width: 100%;
+    }
+}
