@@ -22,12 +22,3 @@ footer {
     color: firebrick;
 }
 
-@media screen and (max-width : 900px) {
-    div.limit {
-        width: auto;
-    }
-    div.imgs {
-        height: 100%;
-        width: 100%;
-    }
-}
