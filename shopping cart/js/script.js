@@ -80,7 +80,7 @@ function start() {
     var num = 0, count = 10, names = ["Shirts", "Accessories", "Sports", "Mobiles", "Books", "Computer", "Furniture", "Shoes", "Bags", "Wallet"], price = [100, 50, 200, 1000, 75, 2000, 3000, 150, 200, 50], no = [count, count, count, count, count, count, count, count, count, count], new_div, new_image;
     while (num < 9) {
         new_div = $("<div></div>");
-        new_div.addClass("col-lg-3 col-md-3 col-sm-2 col-xs-6 thumb limit");
+        new_div.addClass("col-lg-4 col-md-4 col-sm-3 col-xs-5 thumb limit");
         new_div.attr("id", num.toString());
         
         if (num < 3) {
@@ -149,6 +149,9 @@ function start() {
 
 }
 
-
+(function () {
+    "use strict";
+    start();
+}());
 
 
