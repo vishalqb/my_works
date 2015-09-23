@@ -93,7 +93,7 @@ function start() {
         new_image = $("<img>");
         new_image.addClass("img-responsive imgs");
         new_image.attr("id", num.toString());
-        new_image.attr("src", "assets/" + num.toString() + ".jpg");
+        new_image.attr("src", "../shopping cart/assets/" + num.toString() + ".jpg");
         new_image.attr("width", "100");
         new_image.attr("height", "100");
         $("#" + num.toString()).append(new_image);

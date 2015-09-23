@@ -5,12 +5,15 @@
  */
 
 body {
-    background-color: #8adaed;
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background-image: url(../assets/bg.jpg);
 }
 
 .thumb {
+    float: left;
     margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 footer {
@@ -19,6 +22,16 @@ footer {
 
 #disp {
     font-size: 20px;
-    color: firebrick;
+    color: whitesmoke;
+}
+
+.show {
+    float: right;
+    font-size: 20px;
+    color: #840000;
+}
+
+.imgs {
+    border-radius: 25%;
 }
 

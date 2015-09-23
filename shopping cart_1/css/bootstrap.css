@@ -1127,7 +1127,7 @@ img {
 .carousel-inner > .item > a > img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1644,7 +1644,7 @@ pre code {
   width: 33.33333333%;
 }
 .col-xs-3 {
-  width: 25%;
+  width: 25;
 }
 .col-xs-2 {
   width: 16.66666667%;
