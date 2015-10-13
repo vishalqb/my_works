@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <br>
+    <input type="search" class="form-control search" ng-model="search" placeholder="Search Type">
+    <br>
+    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 thumb" ng-repeat="image in images | filter:search">
+        <span id="imagename">
+            <strong>{{image.name}}</strong>
+        </span>
+        <a href="#/details"><img class="img-responsive homeImages" name="{{image.name}}" src="{{image.path}}" ng-click="clicked($event)"></a>
+    </div>
+    </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "name": "job-data",
+  "version": "1.0.0",
+  "description": "Job details using api call",
+  "main": "app.js",
+  "scripts": {
+    "test": "/home/vishal/angular_development/job-data"
+  },
+  "author": "vishal",
+  "license": "ISC",
+  "scripts": {
+    "test": " ./node_modules/karma/bin/karma  start"
+  },
+  "dependencies": {
+    "chai": "^3.3.0",
+    "karma": "^0.13.10",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^0.5.2",
+    "karma-mocha": "^0.2.0",
+    "karma-ng-html2js-preprocessor": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sinon": "^1.0.4",
+    "karma-sinon-chai": "^1.1.0",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "sinon": "^1.17.1",
+    "sinon-chai": "^2.8.0"
+  }
+}

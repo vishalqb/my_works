@@ -1,0 +1,30 @@
+{
+  "name": "job-data",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vishalv1994/my_works",
+  "authors": [
+    "vishal"
+  ],
+  "description": "Job details components",
+  "main": "app.js",
+  "moduleType": [],
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-ui": "~0.4.0",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "angular-mocks": "~1.4.7"
+  }
+}

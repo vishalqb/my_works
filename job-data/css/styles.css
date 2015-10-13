@@ -1,0 +1,123 @@
+body {
+    background-image: url(../assets/images/bg.jpg);
+    background-size: auto;
+}
+#heading {
+    font-size: 32px;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+}
+
+.input {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.login {
+    width: 300px;
+    height: 300px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#errorText {
+    color: red;
+    font-size: 16px;
+}
+
+.thumb {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#imagename{
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.jobtype {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+#tableDetails {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.homeImages{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+    
+}
+
+.details {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    #imagename {
+        font-size: 16px;
+        color: whitesmoke;
+        text-align: center;
+    }
+    .homeImages {
+        width: 75px;
+        height: 75px;
+    }
+    .jobtype {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    #tableDetails {
+        font-size: 16px;
+        color: whitesmoke;  
+    }
+    .thumb {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #imagename {
+        font-size: 12px;
+    }
+    .homeImages {
+        width: 50px;
+        height: 50px;
+    }
+    .jobtype {
+        font-size: 12px;
+    }
+    #tableDetails {
+        font-size: 12px;
+    }
+    .thumb {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "job-data",
+  "version": "1.0.0",
+  "description": "Job details using api call",
+  "main": "app.js",
+  "scripts": {
+    "test": "/home/vishal/angular_development/job-data"
+  },
+  "author": "vishal",
+  "license": "ISC"
+}
