@@ -27,6 +27,6 @@ app.factory("getData", ["$http", function ($http) {
         {name : "JavaScript", path : "assets/images/javascript.jpg"},
         {name : "MEAN", path : "assets/images/mean.jpg"}
     ];
-    service.selected = "intial";
+    service.selected = "initial";
     return service;
 }]);

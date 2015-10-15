@@ -1,5 +1,5 @@
 describe('loginController', function () {
-    var scope, loginController, locationMock    ;
+    var scope, loginController, locationMock;
     beforeEach(module('app'));
     beforeEach(inject(function ($controller, $rootScope) {
         scope = $rootScope.$new();
@@ -9,20 +9,19 @@ describe('loginController', function () {
             $location: locationMock 
         });
     })); 
-    it('should exist',function(){
+    it('should exist logincontroller',function(){
   		expect(loginController).to.exist;
   	});
     it('should be undefined at first', function () {
         expect(scope.username).to.be.undefined;
         expect(scope.password).to.be.undefined;
     });
-    it('assings username to user and password to password', function () {
-        
+    it('should change location to /home', function() {
+        scope.username = "user";
+        scope.password = "password";
         scope.validate();
-        
-        expect(scope.username).to.equal('user');
-        expect(scope.username).to.equal('password');
-expect(locationMock.path.calledWith('/forcast')).to.be.true;
+        expect(locationMock.path.calledWith('/home')).to.be.true;
     });
+    
 });
 

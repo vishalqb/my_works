@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Job details using api call",
   "main": "app.js",
-  "scripts": {
-    "test": "/home/vishal/angular_development/job-data"
-  },
   "author": "vishal",
   "license": "ISC",
   "scripts": {
@@ -17,6 +14,7 @@
     "karma-chai": "^0.1.0",
     "karma-coverage": "^0.5.2",
     "karma-mocha": "^0.2.0",
+    "karma-mocha-reporter": "^1.1.1",
     "karma-ng-html2js-preprocessor": "^0.2.0",
     "karma-phantomjs-launcher": "^0.2.1",
     "karma-sinon": "^1.0.4",
