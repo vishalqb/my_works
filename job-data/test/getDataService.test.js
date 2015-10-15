@@ -4,6 +4,7 @@ describe('getData', function () {
     describe('load images', function() {
         it('should exist images', inject(function(getData){
             expect(getData.images).to.exist;
+            expect(getData.selected).to.exist;
         }));
     });
     describe('api data', function() {
