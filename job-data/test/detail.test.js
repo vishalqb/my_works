@@ -34,5 +34,15 @@ describe('detailsController', function () {
     it('type should be equal to selected', function() {
         expect(scope.type).to.equal(getDataMock.selected);
     });
-    
+    it('should display the details', function() {
+        scope.show(getDataMock.data[0].details);
+        expect(scope.visible).to.be.true;
+        expect(scope.employer).to.exist;
+        expect(scope.lastDate).to.exist;
+        expect(scope.postedDate).to.exist;
+        expect(scope.expLevel).to.exist;
+        expect(scope.expYrs).to.exist;
+        expect(scope.vacancy).to.exist;
+        expect(scope.qualification).to.exist;
+    });
 });

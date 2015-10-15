@@ -13,7 +13,7 @@ describe('getData', function () {
                 mockResource = $injector.get('getData');
             });
         });
-        it('should make a request to the api', inject(function(getData){
+        it('should make a request to the api', (function(){
             httpBackend.when('GET','http://nodejs-qbjsstudy.rhcloud.com/api/get_job_data').respond(
                 function() {
                     result = {name: 'success'};
